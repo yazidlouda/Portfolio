@@ -1,5 +1,7 @@
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 header {
@@ -8,20 +10,20 @@ header {
      background-image: url('https://images.theconversation.com/files/344201/original/file-20200626-33533-13frdsm.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop');
    
 }
-/* Container needed to position the overlay. Adjust the width as needed */
+
 #cont {
     position: relative;
     width: 100%;
     max-width: 400px;
   }
   
-  /* Make the image to responsive */
+  
   .image {
     width: auto;
     height: auto;
   }
   
-  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+
   .overlay {
     position: absolute;
     top: 0;
@@ -35,12 +37,12 @@ header {
     background-color: rgb(27, 14, 14);
   }
   
-  /* When you mouse over the container, fade in the overlay icon*/
+ 
   #cont:hover .overlay {
     opacity: 1;
   }
   
-  /* The icon inside the overlay is positioned in the middle vertically and horizontally */
+
   .icon {
     color: white;
     font-size: 50px;
@@ -52,7 +54,7 @@ header {
     text-align: center;
   }
   
-  /* When you move the mouse over the icon, change color */
+ 
   .fa-user:hover {
     color: #eee;
   }
